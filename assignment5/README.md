@@ -1,3 +1,33 @@
+# Simple Product Dashboard - React Application
+
+This project is a small React application built for **Web Programming - Fall 2026 (Assignment 5)**. It demonstrates the core mental model of React by managing UI using state, passing data via props, rendering lists, and using component composition (`children`).
+
+---
+
+## 📁 File Organization & Structure
+
+The project was created using **Vite** and adheres strictly to the required project layout:
+
+```text
+/assignment5
+ ├─ src/
+ │   ├─ components/
+ │   │   ├─ Card.jsx         # Layout wrapper component (composition via children)
+ │   │   ├─ Product.jsx      # Reusable single product component
+ │   │   └─ ProductList.jsx  # Renders static list of products using .map()
+ │   ├─ App.jsx              # Root component managing application state
+ │   └─ main.jsx             # React entry point
+ ├─ index.html               # HTML template
+ ├─ package.json             # Project dependencies and scripts
+ └─ README.md                # Project documentation
+
+
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
